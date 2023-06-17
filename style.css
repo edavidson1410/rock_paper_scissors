@@ -3,10 +3,14 @@ body {
     flex-direction: column;
     flex-basis: auto;
     align-items: center;
+    background-color: grey;
+    color: white;
+    gap: 50px;
 }
 
 #header {
     font-size: xx-large;
+    border-bottom: solid black;
 
 }
 
@@ -15,12 +19,22 @@ button {
 }
 
 .buttonBox{
+    display: flex;
+    align-items:flex-end;
+    gap: 10px;
 
 }
 
 #runningScore{
     display: flex;
+    gap: 10px;
 
+}
 
+#playerScore, #computerScore {
+    border: solid black;
+    background-color: white;
+    color: black;
+    padding: 10px;
 }
 

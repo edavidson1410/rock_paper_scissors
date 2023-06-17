@@ -21,16 +21,16 @@ function oneRound(choice) {
         playerSelection=="paper" && computerSelection=="scissors" ||
         playerSelection=="scissors" && computerSelection=="rock") {
         computerScore++
-        return `Computer picks ${computerSelection}! You lose.`;
+        return `Player Selection: ${playerSelection} Computer selection: ${computerSelection}\nLOSS`;
         }
     else if (playerSelection=="rock" && computerSelection=="scissors" ||
         playerSelection=="paper" && computerSelection=="rock" ||
         playerSelection=="scissors" && computerSelection=="paper") {
         playerScore++
-        return `Computer picks ${computerSelection}! You win!`;
+        return `Player Selection: ${playerSelection} Computer selection: ${computerSelection}\nWIN`;
         }
     else if (playerSelection==computerSelection) {  //in case of tie
-        return `Computer picks ${computerSelection}! It's a tie!`;
+        return `Player Selection: ${playerSelection} Computer selection: ${computerSelection}\nTIE`;
     }
     updateScore()
 }
