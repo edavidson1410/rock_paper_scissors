@@ -6,6 +6,7 @@ body {
     background-color: grey;
     color: white;
     gap: 50px;
+    height: auto
 }
 
 #header {
@@ -15,6 +16,11 @@ body {
 }
 
 button {
+    font-size: large;
+    border: solid black;
+}
+
+#gameResult {
     font-size: large;
 }
 
@@ -38,3 +44,7 @@ button {
     padding: 10px;
 }
 
+#resetButton {
+    display: flex;
+
+}
