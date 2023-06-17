@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    align-items: center;
+}
+
+#header {
+    font-size: xx-large;
+
+}
+
+button {
+    font-size: large;
+}
+
+.buttonBox{
+
+}
+
+#runningScore{
+    display: flex;
+
+
+}
+
